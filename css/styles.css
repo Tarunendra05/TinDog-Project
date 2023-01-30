@@ -1,0 +1,177 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    font-weight: 600;  
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-head {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+
+.sec-head {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Download-Button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title-section */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Title-Image */
+
+.title-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position:absolute;
+    left: 55%;
+}
+
+/* Features-section */
+
+#features {
+    color: #8f8f8f;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    padding: 3%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 0.5em;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.features-head {
+    color: black;
+    font-size: 1.5rem;
+}
+
+/* Testimonial section */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #ffff;
+}
+
+.testimonial-head {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    padding: 20px;
+    width: 20%;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing-section */
+
+.card {
+    height: 100%;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding:3% 2%;
+}
+
+.price-text {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+/* CTA-Section */
+
+#cta {
+    background-color: #ff4c68;
+}
+
+/* Footer-section */ 
+
+.foot-icon {
+    padding: 10px;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
